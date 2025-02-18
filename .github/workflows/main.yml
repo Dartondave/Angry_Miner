@@ -32,6 +32,7 @@ jobs:
            npm install colors --no-bin-links
            npm install user-agents --no-bin-links
            npm install socks-proxy-agent --no-bin-links
+           npm install https-proxy-agent --no-bin-links
 
     - name: Run meomundep.js
       run: node meomundep.js
