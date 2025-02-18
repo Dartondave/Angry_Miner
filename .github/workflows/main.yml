@@ -30,6 +30,7 @@ jobs:
       run: npm install p-limit --no-bin-links
            npm install axios --no-bin-links
            npm install colors --no-bin-links
+           npm install user-agents --no-bin-links
 
     - name: Run meomundep.js
       run: node meomundep.js
